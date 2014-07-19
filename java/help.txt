@@ -1,0 +1,14 @@
+$ javac HelloWorld.java
+$ java HelloWorld
+
+
+bytecode 생성
+$ javap -c T.class > T.bc
+
+$ javap -verbose -c -private T
+
+
+
+
+o class 이름과 파일명이 같아야 함.
+o 클래스 이름은 대문자로.
